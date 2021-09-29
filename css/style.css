@@ -331,6 +331,11 @@ footer {
   background: #F67E7E;
 }
 
+.subscribe__about{
+  display: flex;
+  justify-content: space-between;
+}
+
 .subscribe__bg {
   position: absolute;
   bottom: 0;
