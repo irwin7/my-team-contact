@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>myteam</title>
   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <section id="site-header">
@@ -37,83 +37,40 @@
           <button class="site-header__menu"><i class='bx bx-menu'></i></button>
         </div>
       </header>
-     <div class="hero">
-       <h2 class="hero__title">Find the best <span>talent</span></h2>
-       <p class="hero__text">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
-     </div>
     </div>
-   </section>
-  <section id="site-build">
-    <div class="container">
-      <div class="build">
-        <div class="build__titles">
-          <h2 class="build__title">Build & manage distributed teams like no one else.</h2>
-        </div>
-        <div class="build__services">
-          <ul class="build__list">
-            <li class="build__item">
-              <div class="build__item-texts">
-                <h3 class="build__item-title">Experienced Individuals</h3>
-                <p class="build__item-text">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
-              </div>
-            </li>
-            <li class="build__item">
-              <div class="build__item-texts">
-                <h3 class="build__item-title">Experienced Individuals</h3>
-                <p class="build__item-text">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
-              </div>
-            </li>
-            <li class="build__item">
-              <div class="build__item-texts">
-                <h3 class="build__item-title">Experienced Individuals</h3>
-                <p class="build__item-text">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
-              </div>
-            </li>
-          </ul>
+  </section>
+
+  <main>
+    <section id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__texts">
+            <h2 class="contact__title">Contact</h2>
+            <h3 class="contact__des">Ask us about</h3>
+            <ul class="contact__list">
+              <li class="contact__item">
+                <p class="contact__item-text">The quality of our talent network</p>
+              </li>
+              <li class="contact__item">
+                <p class="contact__item-text">Usage & implementation of our software</p>
+              </li>
+              <li class="contact__item">
+                <p class="contact__item-text">How we help drive innovation</p>
+              </li>
+            </ul>
+          </div>
+          <form action="https://echo.htmlacademy.ru/" class="contact__forms form">
+            <input type="text" class="form__input-name" placeholder="Name" name="name" required>
+            <input id="email" type="email" name="email" class="form__input-email" placeholder="Email Address" required>
+            <input type="text" class="form__input-company" placeholder="Company Name" name="company name" required>
+            <input type="text" class="form__input-title" placeholder="Title" name="title" required>
+            <textarea name="text" id="" cols="20" rows="10" placeholder="Message" required></textarea>
+            <button type="submit" class="form__btn">submit</button>
+          </form>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="delivering">
-    <div class="container">
-      <div class="delvering">
-        <h2 class="delvering__title">Delivering real results for top <br> companies. Some of our <span>success stories.</span></h2>
-        <ul class="delvering__list">
-          <li class="delvering__item">
-            <p class="delvering__item-des">“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
-            <h3 class="delvering__item-title">Kady Baker</h3>
-            <p class="delvering__item-text">Product Manager at Bookmark</p>
-            <img class="delvering__item-img" src="img/kady.png" alt="kady-img">
-          </li>
-
-          <li class="delvering__item">
-            <p class="delvering__item-des">“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p>
-            <h3 class="delvering__item-title">Aiysha Reese</h3>
-            <p class="delvering__item-text">Founder of Manage</p>
-            <img class="delvering__item-img" src="img/aiysha.png" alt="aiysha-img">
-          </li>
-
-          <li class="delvering__item">
-            <p class="delvering__item-des">“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p>
-            <h3 class="delvering__item-title">Arthur Clarke</h3>
-            <p class="delvering__item-text">Co-founder of MyPhysio</p>
-            <img class="delvering__item-img" src="img/arthur.png" alt="arthur-img">
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="subscribe">
-    <div class="subscribe__bg"></div>
-    <div class="container">
-      <div class="subscribe__about">
-        <h3 class="subscribe__title">Ready to get started?</h3>
-        <a class="subscribe__link" href="#">contact us</a> 
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
     <!-- footer start -->
@@ -157,7 +114,5 @@
       </div>
     </div>
   </footer>
-  <script src="js/main.js"></script>
-  <!-- JS -->
 </body>
 </html>
